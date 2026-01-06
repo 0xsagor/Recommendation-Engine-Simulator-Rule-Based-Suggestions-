@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recommendation Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Recommendation Engine</h1>
+
+  <p>Select your interests:</p>
+
+  <label><input type="checkbox" value="tech"> Technology</label>
+  <label><input type="checkbox" value="finance"> Finance</label>
+  <label><input type="checkbox" value="health"> Health</label>
+  <label><input type="checkbox" value="design"> Design</label>
+
+  <br><br>
+  <button onclick="recommend()">Get Recommendations</button>
+
+  <ul id="results"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
